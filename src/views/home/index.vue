@@ -46,7 +46,7 @@
         <svg-icon icon-class="recruit" class="svg"></svg-icon>
         <span>招聘信息</span>
       </van-col>
-      <van-col :span="4" class="naviger-item">
+      <van-col :span="4" class="naviger-item" @click.native="goMap">
         <svg-icon icon-class="enterprise" class="svg"></svg-icon>
         <span>企业信息</span>
       </van-col>
@@ -94,8 +94,8 @@
           <van-cell title="新闻中心" @click="goCenter" />
           <van-cell title="政策文件" @click="goPolicy" />
           <van-cell title="招标信息" @click="goBidding" />
-          <van-cell title="收费标准" />
-          <van-cell title="联系我们" />
+          <van-cell title="收费标准" @click="goCharge"/>
+          <van-cell title="联系我们" @click="goContact "/>
         </van-cell-group>
       </div>
     </van-popup>
@@ -125,7 +125,6 @@ export default {
   mounted() {
     this.getEngineering()
     this.getHonor()
-    console.log(this)
   },
 
   methods: {
@@ -225,6 +224,26 @@ export default {
         query: {
           active: 6
         }
+      })
+    },
+    //联系我们
+    goContact() {
+      this.$router.push({
+        path:'/about'
+      })
+    },
+    goCharge() {
+      this.$router.push({
+        path:'/buiness/charge',
+        query:{
+          active:5
+        }
+      })
+    },
+    //企业信息
+  goMap() {
+      this.$router.push({
+        path:'detail/map'
       })
     }
   }
