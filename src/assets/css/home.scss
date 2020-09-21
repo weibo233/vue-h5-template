@@ -1,0 +1,10 @@
+.van-tabbar {
+  height: 54px;
+  background: $tabbar-background-color;
+  .van-tabbar-item {
+    color: $tabbar-font-color;
+  }
+  .van-tabbar-item--active {
+    color: $font-active-color;
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "2038377",
+  "name": "成效svg",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17057370",
+      "name": "bidding",
+      "font_class": "bidding",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "17057371",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "17057372",
+      "name": "charge",
+      "font_class": "charge",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "17057373",
+      "name": "enterprise",
+      "font_class": "enterprise",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "17057374",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "17057375",
+      "name": "more",
+      "font_class": "more",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "17057376",
+      "name": "message",
+      "font_class": "message",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "17057377",
+      "name": "recruit",
+      "font_class": "recruit",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "17057378",
+      "name": "new-center",
+      "font_class": "new-center",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "17057379",
+      "name": "resources",
+      "font_class": "resources",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "17057380",
+      "name": "logo_mini",
+      "font_class": "logo_mini",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "17057382",
+      "name": "women",
+      "font_class": "women",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    }
+  ]
+}
